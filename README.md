@@ -13,12 +13,12 @@
 
 ## Table of Contents
 
-1. **[How To Use?](#how)**
+1. **[HowTo](#how-to-use)**
 2. **[Support](#support)**
 3. **[Authors](#authors)**
 4. **[License](#license)**
 
-## How to use?<a name="how"></a>
+## How To Use?
 
 This **WebScraping** service is currently under construction...  
 It will be made available once the product is finished. The idea is that the user can simply enter in the course ID for the bama class and it will automatically search for all relavant classes in the country, as listed on the equivalency table.
@@ -27,7 +27,7 @@ It will be made available once the product is finished. The idea is that the use
 
 Write me a suggestion at my hack of a personal webpage:
 
-* [Contact](https://www.xuguanzhou.com/)
+* [Contact](www.xuguanzhou.com)
 
 ## Authors
 
