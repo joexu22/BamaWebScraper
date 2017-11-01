@@ -13,7 +13,7 @@
 
 ## Table of Contents
 
-1. **[HowTo](#how-to-use)**
+1. **[How To](#how-to-use)**
 2. **[Support](#support)**
 3. **[Authors](#authors)**
 4. **[License](#license)**
@@ -27,7 +27,7 @@ It will be made available once the product is finished. The idea is that the use
 
 Write me a suggestion at my hack of a personal webpage:
 
-* [Contact](www.xuguanzhou.com)
+* [Contact](http://www.xuguanzhou.com)
 
 ## Authors
 
