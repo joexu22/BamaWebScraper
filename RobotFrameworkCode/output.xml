@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171117 17:10:48.466" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
+<suite source="/home/joe/GitProject/BamaWebScraper/WebDemo/login_tests" id="s1" name="Login Tests">
+<suite source="/home/joe/GitProject/BamaWebScraper/WebDemo/login_tests/gherkin_login.robot" id="s1-s1" name="Gherkin Login">
+<test id="s1-s1-t1" name="Valid Login">
+<kw name="Given browser is opened to login page">
+<kw name="Open Browser To Login Page" library="resource">
+<kw name="Open Browser">
+<arguments>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20171117 17:10:48.505" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" endtime="20171117 17:10:48.505" starttime="20171117 17:10:48.505"></status>
+</kw>
+<status status="FAIL" endtime="20171117 17:10:48.505" starttime="20171117 17:10:48.503"></status>
+</kw>
+<status status="FAIL" endtime="20171117 17:10:48.506" starttime="20171117 17:10:48.502"></status>
+</kw>
+<kw type="teardown" name="Close Browser">
+<msg timestamp="20171117 17:10:48.509" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" endtime="20171117 17:10:48.509" starttime="20171117 17:10:48.508">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" endtime="20171117 17:10:48.509" critical="yes" starttime="20171117 17:10:48.502">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>A test suite with a single Gherkin style test.
+
+This test is functionally identical to the example in
+valid_login.robot file.</doc>
+<status status="FAIL" endtime="20171117 17:10:48.509" starttime="20171117 17:10:48.494"></status>
+</suite>
+<suite source="/home/joe/GitProject/BamaWebScraper/WebDemo/login_tests/invalid_login.robot" id="s1-s2" name="Invalid Login">
+<kw type="setup" name="Open Browser To Login Page" library="resource">
+<kw name="Open Browser">
+<arguments>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20171117 17:10:48.517" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" endtime="20171117 17:10:48.517" starttime="20171117 17:10:48.517"></status>
+</kw>
+<status status="FAIL" endtime="20171117 17:10:48.517" starttime="20171117 17:10:48.515"></status>
+</kw>
+<test id="s1-s2-t1" name="Invalid Username">
+<status status="FAIL" endtime="20171117 17:10:48.518" critical="yes" starttime="20171117 17:10:48.517">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-s2-t2" name="Invalid Password">
+<status status="FAIL" endtime="20171117 17:10:48.518" critical="yes" starttime="20171117 17:10:48.518">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-s2-t3" name="Invalid Username And Password">
+<status status="FAIL" endtime="20171117 17:10:48.519" critical="yes" starttime="20171117 17:10:48.519">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-s2-t4" name="Empty Username">
+<status status="FAIL" endtime="20171117 17:10:48.520" critical="yes" starttime="20171117 17:10:48.519">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-s2-t5" name="Empty Password">
+<status status="FAIL" endtime="20171117 17:10:48.521" critical="yes" starttime="20171117 17:10:48.521">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-s2-t6" name="Empty Username And Password">
+<status status="FAIL" endtime="20171117 17:10:48.523" critical="yes" starttime="20171117 17:10:48.522">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<kw type="teardown" name="Close Browser">
+<msg timestamp="20171117 17:10:48.528" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" endtime="20171117 17:10:48.528" starttime="20171117 17:10:48.528">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>A test suite containing tests related to invalid login.
+
+These tests are data-driven by their nature. They use a single
+keyword, specified with Test Template setting, that is called
+with different arguments to cover different scenarios.
+
+This suite also demonstrates using setups and teardowns in
+different levels.</doc>
+<status status="FAIL" endtime="20171117 17:10:48.529" starttime="20171117 17:10:48.510">Suite setup failed:
+No keyword with name 'Open Browser' found.
+
+Also suite teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</suite>
+<suite source="/home/joe/GitProject/BamaWebScraper/WebDemo/login_tests/valid_login.robot" id="s1-s3" name="Valid Login">
+<test id="s1-s3-t1" name="Valid Login">
+<kw name="Open Browser To Login Page" library="resource">
+<kw name="Open Browser">
+<arguments>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20171117 17:10:48.539" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" endtime="20171117 17:10:48.539" starttime="20171117 17:10:48.538"></status>
+</kw>
+<status status="FAIL" endtime="20171117 17:10:48.539" starttime="20171117 17:10:48.536"></status>
+</kw>
+<kw type="teardown" name="Close Browser">
+<msg timestamp="20171117 17:10:48.541" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" endtime="20171117 17:10:48.541" starttime="20171117 17:10:48.541">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" endtime="20171117 17:10:48.541" critical="yes" starttime="20171117 17:10:48.536">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>A test suite with a single test for valid login.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<status status="FAIL" endtime="20171117 17:10:48.542" starttime="20171117 17:10:48.531"></status>
+</suite>
+<status status="FAIL" endtime="20171117 17:10:48.543" starttime="20171117 17:10:48.468"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="8" pass="0">Critical Tests</stat>
+<stat fail="8" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="8" id="s1" name="Login Tests" pass="0">Login Tests</stat>
+<stat fail="1" id="s1-s1" name="Gherkin Login" pass="0">Login Tests.Gherkin Login</stat>
+<stat fail="6" id="s1-s2" name="Invalid Login" pass="0">Login Tests.Invalid Login</stat>
+<stat fail="1" id="s1-s3" name="Valid Login" pass="0">Login Tests.Valid Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20171117 17:10:48.500" level="ERROR">Error in file '/home/joe/GitProject/BamaWebScraper/WebDemo/login_tests/resource.robot': Importing test library 'Selenium2Library' failed: ImportError: No module named Selenium2Library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /usr/local/lib/python2.7/dist-packages/robotframework_seleniumlibrary-3.0.0rc1-py2.7.egg
+  /usr/local/lib/python2.7/dist-packages/selenium-3.7.0-py2.7.egg
+  /usr/lib/python2.7
+  /usr/lib/python2.7/plat-x86_64-linux-gnu
+  /usr/lib/python2.7/lib-tk
+  /usr/lib/python2.7/lib-old
+  /usr/lib/python2.7/lib-dynload
+  /home/joe/.local/lib/python2.7/site-packages
+  /usr/local/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages/PILcompat
+  /usr/lib/python2.7/dist-packages/gtk-2.0
+  /usr/lib/python2.7/dist-packages/ubuntu-sso-client
+  /usr/lib/python2.7/dist-packages/wx-3.0-gtk2</msg>
+<msg timestamp="20171117 17:10:48.513" level="ERROR">Error in file '/home/joe/GitProject/BamaWebScraper/WebDemo/login_tests/resource.robot': Importing test library 'Selenium2Library' failed: ImportError: No module named Selenium2Library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /usr/local/lib/python2.7/dist-packages/robotframework_seleniumlibrary-3.0.0rc1-py2.7.egg
+  /usr/local/lib/python2.7/dist-packages/selenium-3.7.0-py2.7.egg
+  /usr/lib/python2.7
+  /usr/lib/python2.7/plat-x86_64-linux-gnu
+  /usr/lib/python2.7/lib-tk
+  /usr/lib/python2.7/lib-old
+  /usr/lib/python2.7/lib-dynload
+  /home/joe/.local/lib/python2.7/site-packages
+  /usr/local/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages/PILcompat
+  /usr/lib/python2.7/dist-packages/gtk-2.0
+  /usr/lib/python2.7/dist-packages/ubuntu-sso-client
+  /usr/lib/python2.7/dist-packages/wx-3.0-gtk2</msg>
+<msg timestamp="20171117 17:10:48.534" level="ERROR">Error in file '/home/joe/GitProject/BamaWebScraper/WebDemo/login_tests/resource.robot': Importing test library 'Selenium2Library' failed: ImportError: No module named Selenium2Library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/local/bin
+  /usr/local/lib/python2.7/dist-packages/robotframework_seleniumlibrary-3.0.0rc1-py2.7.egg
+  /usr/local/lib/python2.7/dist-packages/selenium-3.7.0-py2.7.egg
+  /usr/lib/python2.7
+  /usr/lib/python2.7/plat-x86_64-linux-gnu
+  /usr/lib/python2.7/lib-tk
+  /usr/lib/python2.7/lib-old
+  /usr/lib/python2.7/lib-dynload
+  /home/joe/.local/lib/python2.7/site-packages
+  /usr/local/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages/PILcompat
+  /usr/lib/python2.7/dist-packages/gtk-2.0
+  /usr/lib/python2.7/dist-packages/ubuntu-sso-client
+  /usr/lib/python2.7/dist-packages/wx-3.0-gtk2</msg>
+</errors>
+</robot>
