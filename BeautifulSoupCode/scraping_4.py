@@ -16,3 +16,10 @@ soup = BeautifulSoup(email_id_example,"lxml")
 emailid_regexp = re.compile("\w+@\w+.\w+")
 first_email_id = soup.find(text=emailid_regexp)
 print(first_email_id)
+print("")
+
+#using find_all() and limit
+email_ids = soup.find_all(text=emailid_regexp)
+print(email_ids)
+email_ids_limited = soup.find_all(text=emailid_regexp,limit=2)
+print(email_ids_limited)

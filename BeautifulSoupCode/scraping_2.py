@@ -24,5 +24,5 @@ print(soup)
 #learning tags...
 print("")
 atag = soup.tag
-print(atag['href'])
+#print(atag['href'])
 #first_a_string = soup.
