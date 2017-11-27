@@ -1,21 +1,28 @@
+# selenium files
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# TODO: solve the problem using levels of webscraping
-# just code something
+# sqlite3 files
+import sqlite3
+import sys
+
+# TODO: solve the problem using multiple levels of webscraping, 1st level,
+# 2nd level, etc. - aka breath first search levels
 
 class bamaWebCrawler(object):
-    """ A framework for navigating Bama's course equivalency website
+    """ Object Oriented class to aid in navigation of Bama's course
+    equivalency website
 
     Attributes:
-        TODO: Maybe having it inherit from a object with a selection of drivers
-        driver: A hands off browser
-        etc.
+        TODO: Having it inherit from a object with a selection of webdrivers
+        driver: A hands off browser, using Chrome
     """
 
+    # TODO: The can be written in a config file
+    # TODO: The website location can itself be scraped directly from google
     def __init__(self, driver_location = "./chromedriver",
                  website_location = "https://ssb.ua.edu/pls/PROD/rtstreq.P_Searchtype"):
         self.driver_location = driver_location
@@ -23,21 +30,46 @@ class bamaWebCrawler(object):
         self.driver = webdriver.Chrome("./chromedriver")
 
     def getToPickState(self):
+        """ This function is reused to navigate towards the first branching
+        operation. (TODO: Explore tree based solution)...
+        """
+        # initial starting website
         self.driver.get(self.website_location)
+
+        # Selenium selections
         radio_button_css = "input[type='radio'][value='BAMANAME']"
         bamaRadioBtn = self.driver.find_element_by_css_selector(radio_button_css)
         bamaRadioBtn.click()
         search_button_css = "input[type='submit'][value='Submit']"
         bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
         bamaSearchBtn.click()
+
+        # option list with all the US States
         bamaState = Select(self.driver.find_element_by_id("p_state"))
+        return bamaState
 
 # __main__ program here
 dataCollector = bamaWebCrawler()
-dataCollector.getToPickState()
 
-# TODO: Database Solution...
-state_list = []
+# convert into array of text
+stateList = dataCollector.getToPickState()
+stateList = [state.text for state in stateList.options]
+# print stateList
+
+# insert into DB
+connection = sqlite3.connect('bamaCourseTables.db')
+with connection:
+    cursor = connection.cursor()
+
+    # TODO: research proper database "non-scripting" solutions
+    cursor.execute("DROP TABLE IF EXISTS States")
+    cursor.execute("CREATE TABLE States(State TEXT)")
+
+    for state in stateList:
+        cursor.execute("INSERT INTO States VALUES(?)", (state,))
+
+    #for state in stateList:
+    #        cursor.execute("INSERT INTO States VALUES(?)", state)
 
 def getToPickState():
     driver = webdriver.Chrome("./chromedriver")

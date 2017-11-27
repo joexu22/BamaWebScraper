@@ -7,10 +7,12 @@ import sys
 connection = sqlite3.connect('test.db')
 with connection:
     cursor = connection.cursor()
-    
+    # delete existing table
+    cursor.execute("DROP TABLE IF EXISTS Cars")
+
     # create table
     cursor.execute("CREATE TABLE Cars(Id INT, Name TEXT, Price INT)")
-    
+
     # create values
     cursor.execute("INSERT INTO Cars VALUES(1,'Audi',52642)")
     cursor.execute("INSERT INTO Cars VALUES(2,'Mercedes',57127)")
