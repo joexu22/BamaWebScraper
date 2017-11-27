@@ -44,49 +44,83 @@ class bamaWebCrawler(object):
         bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
         bamaSearchBtn.click()
 
+    def clickSearchButton(self):
+        # TODO: refactor the clicking?
+        search_button_css = "input[type='submit'][value='Submit']"
+        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn.click()
+
+    def getStateList(self):
+        """anciliary function for getting the list of States
+        """
+        self.getToPickState()
         # option list with all the US States
-        bamaState = Select(self.driver.find_element_by_id("p_state"))
-        return bamaState
+        stateList = Select(self.driver.find_element_by_id("p_state"))
+        return stateList
 
-# __main__ program here
-dataCollector = bamaWebCrawler()
+    def getSchoolList(self, stateName):
+        """ability to get select the correct state
+        """
+        stateList = self.getStateList()
+        stateList.select_by_visible_text(stateName)
 
-# convert into array of text
-stateList = dataCollector.getToPickState()
-stateList = [state.text for state in stateList.options]
-# print stateList
+    def closeBrowser(self):
+        self.driver.quit()
 
-# insert into DB
-connection = sqlite3.connect('bamaCourseTables.db')
-with connection:
-    cursor = connection.cursor()
+def main():
+    # __main__ program here
+    dataCollector = bamaWebCrawler()
 
-    # TODO: research proper database "non-scripting" solutions
-    cursor.execute("DROP TABLE IF EXISTS States")
-    cursor.execute("CREATE TABLE States(State TEXT)")
+    # convert into array of text
+    stateList = dataCollector.getStateList()
+    stateList = [state.text for state in stateList.options]
+    # print stateList
 
-    for state in stateList:
-        cursor.execute("INSERT INTO States VALUES(?)", (state,))
+    # insert into DB
+    connection = sqlite3.connect('bamaCourseTables.db')
+    with connection:
+        cursor = connection.cursor()
 
-    #for state in stateList:
-    #        cursor.execute("INSERT INTO States VALUES(?)", state)
+        # TODO: research proper database "non-scripting" solutions
+        cursor.execute("DROP TABLE IF EXISTS States")
+        cursor.execute("CREATE TABLE States(State TEXT)")
 
-def getToPickState():
-    driver = webdriver.Chrome("./chromedriver")
-    driver.get("https://ssb.ua.edu/pls/PROD/rtstreq.P_Searchtype")
-    radio_button_css = "input[type='radio'][value='BAMANAME']"
-    bamaRadioBtn = driver.find_element_by_css_selector(radio_button_css)
-    bamaRadioBtn.click()
-    search_button_css = "input[type='submit'][value='Submit']"
-    bamaSearchBtn = driver.find_element_by_css_selector(search_button_css)
-    bamaSearchBtn.click()
-    bamaState = Select(driver.find_element_by_id("p_state"))
-    """
-    for state in bamaState.options:
-        bamaState.select_by_visible_text(state.text)
-        WebDriverWait(driver, 60)
-    """
-    driver.quit()
+        for state in stateList:
+            cursor.execute("INSERT INTO States VALUES(?)", (state,))
+
+#if __name__ == "__main__":
+#    main()
+
+#dataCollector = bamaWebCrawler()
+#stateList = dataCollector.getStateList()
+#stateList = [state.text for state in stateList.options]
+stateList = ['Alabama','Massachusetts']
+# shorten up list
+for state in stateList:
+    # heavy code (branching) here... may need headless drivers
+    # TODO: implement parallism here
+    newSchoolList = bamaWebCrawler()
+    newSchoolList.getSchoolList(state)
+    newSchoolList.clickSearchButton()
+
+
+# access each state
+# TODO: "eventually", get the list from the database
+
+# for state in stateList:
+    # very heavy code here... may need headless drivers
+    # bamaState.select_by_visible_text(state)
+"""
+search_button_css = "input[type='submit'][value='Submit']"
+bamaSearchBtn = driver.find_element_by_css_selector(search_button_css)
+bamaSearchBtn.click()
+"""
+
+"""
+for state in bamaState.options:
+    bamaState.select_by_visible_text(state.text)
+    WebDriverWait(driver, 60)
+"""
 
 # creating a function that takes me to the multiple options
 def pickState():
