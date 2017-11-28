@@ -56,13 +56,23 @@ class bamaWebCrawler(object):
         self.getToPickState()
         # option list with all the US States
         stateList = Select(self.driver.find_element_by_id("p_state"))
+        # logic...
+        # stateList = [state.text for state in stateList.options]
         return stateList
 
-    def getSchoolList(self, stateName):
+    def selectSchool(self, stateName):
         """ability to get select the correct state
         """
         stateList = self.getStateList()
         stateList.select_by_visible_text(stateName)
+
+    def getSchoolList(self):
+        schoolList = Select(self.driver.find_element_by_id("p_sbgi"))
+        schoolList = [school.text for school in schoolList.options]
+        return schoolList
+
+    def pauseWebdriver(self, time=100):
+        WebDriverWait(self.driver,time)
 
     def closeBrowser(self):
         self.driver.quit()
@@ -83,26 +93,49 @@ def main():
 
         # TODO: research proper database "non-scripting" solutions
         cursor.execute("DROP TABLE IF EXISTS States")
-        cursor.execute("CREATE TABLE States(State TEXT)")
+        cursor.execute("CREATE TABLE States(State TEXT PRIMARY KEY)")
 
         for state in stateList:
             cursor.execute("INSERT INTO States VALUES(?)", (state,))
 
-#if __name__ == "__main__":
-#    main()
+# if __name__ == "__main__":
+#     main()
 
-#dataCollector = bamaWebCrawler()
-#stateList = dataCollector.getStateList()
-#stateList = [state.text for state in stateList.options]
+# dataCollector = bamaWebCrawler()
+# stateList = dataCollector.getStateList()
+# stateList = [state.text for state in stateList.options]
+
+# hacking around "a problem"...
+connection = sqlite3.connect('bamaCourseTables.db')
+with connection:
+    cursor = connection.cursor()
+    cursor.execute("DROP TABLE IF EXISTS Schools")
+    cursor.execute("CREATE TABLE Schools(State TEXT, School TEXT)")
+
+# shortened test list
 stateList = ['Alabama','Massachusetts']
-# shorten up list
+
 for state in stateList:
     # heavy code (branching) here... may need headless drivers
     # TODO: implement parallism here
     newSchoolList = bamaWebCrawler()
-    newSchoolList.getSchoolList(state)
-    newSchoolList.clickSearchButton()
 
+    # getting the list of schools here from a state
+    newSchoolList.selectSchool(state)
+    newSchoolList.clickSearchButton()
+    schoolList = newSchoolList.getSchoolList()
+
+    # create another SQL table here
+    connection = sqlite3.connect('bamaCourseTables.db')
+    with connection:
+        cursor = connection.cursor()
+
+        for school in schoolList:
+            cursor.execute("INSERT INTO Schools VALUES(?,?)", (state,school))
+
+    # cleanup and concurrency issues
+    newSchoolList.pauseWebdriver(250)
+    newSchoolList.closeBrowser()
 
 # access each state
 # TODO: "eventually", get the list from the database
@@ -110,6 +143,7 @@ for state in stateList:
 # for state in stateList:
     # very heavy code here... may need headless drivers
     # bamaState.select_by_visible_text(state)
+
 """
 search_button_css = "input[type='submit'][value='Submit']"
 bamaSearchBtn = driver.find_element_by_css_selector(search_button_css)
