@@ -44,6 +44,49 @@ class bamaWebCrawler(object):
         bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
         bamaSearchBtn.click()
 
+    def pickStateSchool(self, state, school):
+        """ navigates Bama's website with state and school
+        hacking this... I'll refactor when the code acutally works :(
+        """
+        self.driver.get(self.website_location)
+
+        radio_button_css = "input[type='radio'][value='BAMANAME']"
+        bamaRadioBtn = self.driver.find_element_by_css_selector(radio_button_css)
+        bamaRadioBtn.click()
+
+        search_button_css = "input[type='submit'][value='Submit']"
+        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn.click()
+
+        stateList = Select(self.driver.find_element_by_id("p_state"))
+        stateList.select_by_visible_text(state)
+
+        search_button_css = "input[type='submit'][value='Submit']"
+        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn.click()
+
+        schoolList = Select(self.driver.find_element_by_id("p_sbgi"))
+        schoolList.select_by_visible_text(school)
+
+        search_button_css = "input[type='submit'][value='Submit']"
+        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn.click()
+
+        # Following this is an hack... will refactor
+        #searchBox = self.driver.find_element_by_id("crse_name_input_id")
+        #searchBox.send_keys("LOTS OF MEANINGLESS WORDS FOR ME")
+        #WebDriverWait(self.driver,600)
+        #search_button_css = "input[type='submit'][value='Get Course List']"
+        #bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        #bamaSearchBtn.click()
+
+    def pickCourse(self, courseName):
+        searchBox = self.driver.find_element_by_id("crse_name_input_id")
+        searchBox.send_keys(courseName)
+        search_button_css = "input[type='submit'][value='Get Course List']"
+        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn.click()
+
     def clickSearchButton(self):
         # TODO: refactor the clicking?
         search_button_css = "input[type='submit'][value='Submit']"
@@ -61,7 +104,8 @@ class bamaWebCrawler(object):
         return stateList
 
     def selectSchool(self, stateName):
-        """ability to get select the correct state
+        """ TODO: Logic is busted here; this should be called selectSchool or
+        getToSchoolList...
         """
         stateList = self.getStateList()
         stateList.select_by_visible_text(stateName)
@@ -105,40 +149,65 @@ def main():
 # stateList = dataCollector.getStateList()
 # stateList = [state.text for state in stateList.options]
 
-# hacking around "a problem"...
-connection = sqlite3.connect('bamaCourseTables.db')
-with connection:
-    cursor = connection.cursor()
-    cursor.execute("DROP TABLE IF EXISTS Schools")
-    cursor.execute("CREATE TABLE Schools(State TEXT, School TEXT)")
-
-# shortened test list
-stateList = ['Alabama','Massachusetts']
-
-for state in stateList:
-    # heavy code (branching) here... may need headless drivers
-    # TODO: implement parallism here
-    newSchoolList = bamaWebCrawler()
-
-    # getting the list of schools here from a state
-    newSchoolList.selectSchool(state)
-    newSchoolList.clickSearchButton()
-    schoolList = newSchoolList.getSchoolList()
-
-    # create another SQL table here
+def getAllSchoolNames():
+    # hacking around "a problem"...
     connection = sqlite3.connect('bamaCourseTables.db')
     with connection:
         cursor = connection.cursor()
+        cursor.execute("DROP TABLE IF EXISTS Schools")
+        cursor.execute("CREATE TABLE Schools(State TEXT, School TEXT)")
 
-        for school in schoolList:
-            cursor.execute("INSERT INTO Schools VALUES(?,?)", (state,school))
+    # shortened test list
+    stateList = ['Alabama','Massachusetts']
 
-    # cleanup and concurrency issues
-    newSchoolList.pauseWebdriver(250)
-    newSchoolList.closeBrowser()
+    for state in stateList:
+        # heavy code (branching) here... may need headless drivers
+        # TODO: implement parallism here
+        newSchoolList = bamaWebCrawler()
 
-# access each state
+        # getting the list of schools here from a state
+        newSchoolList.selectSchool(state)
+        newSchoolList.clickSearchButton()
+        schoolList = newSchoolList.getSchoolList()
+
+        # create another SQL table here
+        connection = sqlite3.connect('bamaCourseTables.db')
+        with connection:
+            cursor = connection.cursor()
+
+            for school in schoolList:
+                cursor.execute("INSERT INTO Schools VALUES(?,?)", (state,school))
+
+        # cleanup and concurrency issues
+        newSchoolList.pauseWebdriver(250)
+        newSchoolList.closeBrowser()
+
+# access each item in database
 # TODO: "eventually", get the list from the database
+randomSchool = None
+connection = sqlite3.connect('bamaCourseTables.db')
+with connection:
+    cursor = connection.cursor()
+    cursor.execute("SELECT * FROM Schools")
+    stateSchool = cursor.fetchall()
+    import random
+    randomSchool = random.choice(stateSchool)
+    # making sure the data coming out are tuples
+    # for entry in stateSchool:
+    #    print entry
+print randomSchool
+
+# Test Setup... Need to set up test driven development...
+# script getting too big
+randomSchool = (u'Massachusetts', u'Univ of Massachusetts Lowell')
+print randomSchool[0]
+print randomSchool[1]
+
+courseSearch = bamaWebCrawler()
+courseSearch.pickStateSchool(randomSchool[0],randomSchool[1])
+# picking everything
+# courseSearch.pickCourse("%")
+
 
 # for state in stateList:
     # very heavy code here... may need headless drivers
