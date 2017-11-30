@@ -94,5 +94,13 @@ target_class_2 = soup.find_all(test=class_regexp_2)
 target_class = target_class_1 + target_class_2
 print(target_class)
 
+# getting the name of the other type
+for target_equivalency in target_class:
+    try:
+        print target_equivalency.parent.parent
+    except AttributeError:
+        # some error that I'm not expecting
+        pass
+
 # clean-up
 driver.close()
