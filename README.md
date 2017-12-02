@@ -1,15 +1,13 @@
 # Bama Course Equivalency WebScraper
-[![GitHub issues](https://img.shields.io/github/issues/joexu22/BamaWebScraper.svg?style=plastic)](https://github.com/joexu22/BamaWebScraper/issues)
-[![GitHub forks](https://img.shields.io/github/forks/joexu22/BamaWebScraper.svg?style=plastic)](https://github.com/joexu22/BamaWebScraper/network)
-[![GitHub stars](https://img.shields.io/github/stars/joexu22/BamaWebScraper.svg?style=plastic)](https://github.com/joexu22/BamaWebScraper/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg?style=plastic)](https://raw.githubusercontent.com/joexu22/BamaWebScraper/master/LICENSE)
+
+[![GitHub issues](https://img.shields.io/github/issues/joexu22/BamaWebScraper.svg?style=plastic)](https://github.com/joexu22/BamaWebScraper/issues) [![GitHub forks](https://img.shields.io/github/forks/joexu22/BamaWebScraper.svg?style=plastic)](https://github.com/joexu22/BamaWebScraper/network) [![GitHub stars](https://img.shields.io/github/stars/joexu22/BamaWebScraper.svg?style=plastic)](https://github.com/joexu22/BamaWebScraper/stargazers) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg?style=plastic)](https://raw.githubusercontent.com/joexu22/BamaWebScraper/master/LICENSE)
 
 **Bama Course Equivalency WebScraper** is a webscraping project which allows an University of Alabama, Tuscaloosa student to check where in the contry they can take a course, without having to be at Bama. This project was brought about by a personal desire to not return to Bama just for a specific class.
 
-*Roll Tide!*  
+_Roll Tide!_<br>
 [![](http://via.placeholder.com/350x150)](https://ssb.ua.edu/pls/PROD/rtstreq.P_Searchtype)
 
----
+--------------------------------------------------------------------------------
 
 ## Table of Contents
 
@@ -20,14 +18,14 @@
 
 ## How To Use?
 
-This **WebScraping** service is currently under construction...  
+This **WebScraping** service is currently under construction...<br>
 It will be made available once the product is finished. The idea is that the user can simply enter in the course ID for the bama class and it will automatically search for all relavant classes in the country, as listed on the equivalency table.
 
 ## Support
 
-Write me a suggestion at my hack of a personal webpage:
+Write me a suggestion at my personal web-page:
 
-* [Contact](http://www.xuguanzhou.com)
+- [Contact](http://www.xuguanzhou.io)
 
 ## Authors
 
