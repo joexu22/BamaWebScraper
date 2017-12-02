@@ -12,6 +12,7 @@ import sys
 # TODO: solve the problem using multiple levels of webscraping, 1st level,
 # 2nd level, etc. - aka breath first search levels
 
+
 class bamaWebCrawler(object):
     """ Object Oriented class to aid in navigation of Bama's course
     equivalency website
@@ -23,8 +24,8 @@ class bamaWebCrawler(object):
 
     # TODO: The can be written in a config file
     # TODO: The website location can itself be scraped directly from google
-    def __init__(self, driver_location = "./chromedriver",
-                 website_location = "https://ssb.ua.edu/pls/PROD/rtstreq.P_Searchtype"):
+    def __init__(self, driver_location="./chromedriver",
+                 website_location="https://ssb.ua.edu/pls/PROD/rtstreq.P_Searchtype"):
         self.driver_location = driver_location
         self.website_location = website_location
         self.driver = webdriver.Chrome("./chromedriver")
@@ -38,10 +39,12 @@ class bamaWebCrawler(object):
 
         # Selenium selections
         radio_button_css = "input[type='radio'][value='BAMANAME']"
-        bamaRadioBtn = self.driver.find_element_by_css_selector(radio_button_css)
+        bamaRadioBtn = self.driver.find_element_by_css_selector(
+            radio_button_css)
         bamaRadioBtn.click()
         search_button_css = "input[type='submit'][value='Submit']"
-        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn = self.driver.find_element_by_css_selector(
+            search_button_css)
         bamaSearchBtn.click()
 
     def pickStateSchool(self, state, school):
@@ -51,46 +54,52 @@ class bamaWebCrawler(object):
         self.driver.get(self.website_location)
 
         radio_button_css = "input[type='radio'][value='BAMANAME']"
-        bamaRadioBtn = self.driver.find_element_by_css_selector(radio_button_css)
+        bamaRadioBtn = self.driver.find_element_by_css_selector(
+            radio_button_css)
         bamaRadioBtn.click()
 
         search_button_css = "input[type='submit'][value='Submit']"
-        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn = self.driver.find_element_by_css_selector(
+            search_button_css)
         bamaSearchBtn.click()
 
         stateList = Select(self.driver.find_element_by_id("p_state"))
         stateList.select_by_visible_text(state)
 
         search_button_css = "input[type='submit'][value='Submit']"
-        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn = self.driver.find_element_by_css_selector(
+            search_button_css)
         bamaSearchBtn.click()
 
         schoolList = Select(self.driver.find_element_by_id("p_sbgi"))
         schoolList.select_by_visible_text(school)
 
         search_button_css = "input[type='submit'][value='Submit']"
-        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn = self.driver.find_element_by_css_selector(
+            search_button_css)
         bamaSearchBtn.click()
 
         # Following this is an hack... will refactor
         #searchBox = self.driver.find_element_by_id("crse_name_input_id")
         #searchBox.send_keys("LOTS OF MEANINGLESS WORDS FOR ME")
-        #WebDriverWait(self.driver,600)
+        # WebDriverWait(self.driver,600)
         #search_button_css = "input[type='submit'][value='Get Course List']"
         #bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
-        #bamaSearchBtn.click()
+        # bamaSearchBtn.click()
 
     def pickCourse(self, courseName):
         searchBox = self.driver.find_element_by_id("crse_name_input_id")
         searchBox.send_keys(courseName)
         search_button_css = "input[type='submit'][value='Get Course List']"
-        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn = self.driver.find_element_by_css_selector(
+            search_button_css)
         bamaSearchBtn.click()
 
     def clickSearchButton(self):
         # TODO: refactor the clicking?
         search_button_css = "input[type='submit'][value='Submit']"
-        bamaSearchBtn = self.driver.find_element_by_css_selector(search_button_css)
+        bamaSearchBtn = self.driver.find_element_by_css_selector(
+            search_button_css)
         bamaSearchBtn.click()
 
     def getStateList(self):
@@ -116,10 +125,11 @@ class bamaWebCrawler(object):
         return schoolList
 
     def pauseWebdriver(self, time=100):
-        WebDriverWait(self.driver,time)
+        WebDriverWait(self.driver, time)
 
     def closeBrowser(self):
         self.driver.quit()
+
 
 def main():
     # __main__ program here
@@ -149,6 +159,7 @@ def main():
 # stateList = dataCollector.getStateList()
 # stateList = [state.text for state in stateList.options]
 
+
 def getAllSchoolNames():
     # hacking around "a problem"...
     connection = sqlite3.connect('bamaCourseTables.db')
@@ -158,7 +169,7 @@ def getAllSchoolNames():
         cursor.execute("CREATE TABLE Schools(State TEXT, School TEXT)")
 
     # shortened test list
-    stateList = ['Alabama','Massachusetts']
+    stateList = ['Alabama', 'Massachusetts']
 
     for state in stateList:
         # heavy code (branching) here... may need headless drivers
@@ -176,11 +187,13 @@ def getAllSchoolNames():
             cursor = connection.cursor()
 
             for school in schoolList:
-                cursor.execute("INSERT INTO Schools VALUES(?,?)", (state,school))
+                cursor.execute(
+                    "INSERT INTO Schools VALUES(?,?)", (state, school))
 
         # cleanup and concurrency issues
         newSchoolList.pauseWebdriver(250)
         newSchoolList.closeBrowser()
+
 
 # access each item in database
 # TODO: "eventually", get the list from the database
@@ -204,14 +217,14 @@ print randomSchool[0]
 print randomSchool[1]
 
 courseSearch = bamaWebCrawler()
-courseSearch.pickStateSchool(randomSchool[0],randomSchool[1])
+courseSearch.pickStateSchool(randomSchool[0], randomSchool[1])
 # picking everything
 # courseSearch.pickCourse("%")
 
 
 # for state in stateList:
-    # very heavy code here... may need headless drivers
-    # bamaState.select_by_visible_text(state)
+# very heavy code here... may need headless drivers
+# bamaState.select_by_visible_text(state)
 
 """
 search_button_css = "input[type='submit'][value='Submit']"
@@ -226,6 +239,8 @@ for state in bamaState.options:
 """
 
 # creating a function that takes me to the multiple options
+
+
 def pickState():
     driver = webdriver.Chrome("./chromedriver")
     driver.get("https://ssb.ua.edu/pls/PROD/rtstreq.P_Searchtype")
@@ -241,7 +256,8 @@ def pickState():
         WebDriverWait(driver, 60)
     driver.quit()
 
-#pickState()
+# pickState()
+
 
 """
 # creating a instance of Chrome driver
