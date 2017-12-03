@@ -96,12 +96,13 @@ def hasEquivalentCourse(state, school):
     soup = BeautifulSoup(html_page, 'lxml')
 
     # TODO: some smart string parsing algorithm here
-    class_regexp_1 = re.compile("\w*Formal\w*")
-    class_regexp_2 = re.compile("\w*Algor\w*")
+    class_regexp_1 = re.compile(".*Formal.*")
+    class_regexp_2 = re.compile(".*Algori.*")
 
     target_class_1 = soup.find_all(text=class_regexp_1)
-    target_class_2 = soup.find_all(test=class_regexp_2)
+    target_class_2 = soup.find_all(text=class_regexp_2)
     target_class = target_class_1 + target_class_2
+
     if not target_class:
         driver.close()
         return 0
@@ -130,7 +131,8 @@ if __name__ == "__main__":
     f = open("targetSchools.txt","w")
     f.close()
     stateSchool = getEntryFromDB()
-    #stateSchool = [(u'Massachusetts', u'Univ of Massachusetts Lowell'),(u'Alabama', u'Auburn University Main Campus')]
+    # stateSchool = [(u'Massachusetts', u'Univ of Massachusetts Lowell'),(u'Alabama', u'Auburn University Main Campus')]
+    stateSchool = [(u'Oregon', u'Oregon State University')]
     for entry in stateSchool:
         print entry[0] + " " + entry[1]
         hasEquivalentCourse(entry[0], entry[1])
