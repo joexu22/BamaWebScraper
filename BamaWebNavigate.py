@@ -109,7 +109,7 @@ def hasEquivalentCourse(state, school):
     for target in target_class:
         if (target.parent.parent.find_all(text="470")
                 or target.parent.parent.find_all(text="475")):
-            new_targets.append(target)
+            equi_classes.append(target)
 
     if not equi_classes:
         driver.close()
