@@ -103,36 +103,44 @@ def hasEquivalentCourse(state, school):
     target_class_2 = soup.find_all(text=class_regexp_2)
     target_class = target_class_1 + target_class_2
 
-    if not target_class:
+    # TODO: this need to be make optional; filter out non CS470 or CS475
+    # TODO: code golf oppurtunity...
+    equi_classes = []
+    for target in target_class:
+        if (target.parent.parent.find_all(text="470")
+                or target.parent.parent.find_all(text="475")):
+            new_targets.append(target)
+
+    if not equi_classes:
         driver.close()
         return 0
     else:
-        print(target_class)
-
-        # getting the name of the other type
-        for target_equivalency in target_class:
+        # for target_equivalency in target_class:
+        for target_equivalency in equi_classes:
             try:
                 target_school = open("targetSchools.txt", "a")
-                stateAndSchool = "State: " + state + " School: " + school + "\n"
                 target_school.write("-Potential School-\n")
-                target_school.write(stateAndSchool)
+                target_school.write("State: " + state + "\n")
+                target_school.write("School: " + school + "\n")
                 target_school.write(str(target_equivalency.parent.parent))
                 target_school.write("\n")
                 target_school.close()
             except AttributeError:
                 # some error that I'm not expecting
                 pass
+
     # clean-up
     driver.close()
 
 
 if __name__ == "__main__":
-    #nuking file
-    f = open("targetSchools.txt","w")
+    # nuking file
+    f = open("targetSchools.txt", "w")
     f.close()
     stateSchool = getEntryFromDB()
     # stateSchool = [(u'Massachusetts', u'Univ of Massachusetts Lowell'),(u'Alabama', u'Auburn University Main Campus')]
-    stateSchool = [(u'Oregon', u'Oregon State University')]
+    # stateSchool = [(u'Oregon', u'Oregon State University'),(u'Alabama', u'Alabama State University')]
+    # stateSchool = [(u'Alabama', u'Alabama State University')]
     for entry in stateSchool:
         print entry[0] + " " + entry[1]
         hasEquivalentCourse(entry[0], entry[1])
