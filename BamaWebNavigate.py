@@ -103,6 +103,7 @@ def hasEquivalentCourse(state, school):
     target_class_2 = soup.find_all(text=class_regexp_2)
     target_class = target_class_1 + target_class_2
 
+    # TODO: potentially remove duplicates here
     # TODO: this need to be make optional; filter out non CS470 or CS475
     # TODO: code golf oppurtunity...
     equi_classes = []
@@ -118,12 +119,15 @@ def hasEquivalentCourse(state, school):
         # for target_equivalency in target_class:
         for target_equivalency in equi_classes:
             try:
-                target_school = open("targetSchools.txt", "a")
-                target_school.write("-Potential School-\n")
-                target_school.write("State: " + state + "\n")
-                target_school.write("School: " + school + "\n")
+                target_school = open("targetSchools.html", "a")
+                # formatting it into table
+                target_school.write("<tr>\n")
+                target_school.write("<td>State</td>\n")
+                target_school.write("<td>" + state + "</td>\n")
+                target_school.write("<td>School</td>\n")
+                target_school.write("<td>" + school + "</td>\n")
+                target_school.write("</tr>\n")
                 target_school.write(str(target_equivalency.parent.parent))
-                target_school.write("\n")
                 target_school.close()
             except AttributeError:
                 # some error that I'm not expecting
@@ -135,12 +139,28 @@ def hasEquivalentCourse(state, school):
 
 if __name__ == "__main__":
     # nuking file
-    f = open("targetSchools.txt", "w")
+    f = open("targetSchools.html", "w")
+    file_heading = """
+    <!DOCTYPE html>
+    <html>
+    <body>
+    <table style="width:100%">
+    """
+    f.write(file_heading)
     f.close()
     stateSchool = getEntryFromDB()
-    # stateSchool = [(u'Massachusetts', u'Univ of Massachusetts Lowell'),(u'Alabama', u'Auburn University Main Campus')]
+    stateSchool = [(u'Massachusetts', u'Univ of Massachusetts Lowell'),
+                   (u'Alabama', u'Auburn University Main Campus')]
     # stateSchool = [(u'Oregon', u'Oregon State University'),(u'Alabama', u'Alabama State University')]
     # stateSchool = [(u'Alabama', u'Alabama State University')]
     for entry in stateSchool:
-        print entry[0] + " " + entry[1]
+        # print entry[0] + " " + entry[1]
         hasEquivalentCourse(entry[0], entry[1])
+    f = open("targetSchools.html", "a")
+    file_footing = """
+    </table>
+    </body>
+    </html>
+    """
+    f.write(file_footing)
+    f.close()
