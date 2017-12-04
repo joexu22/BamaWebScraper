@@ -1,0 +1,86 @@
+
+        <!DOCTYPE html>
+        <html>
+        <body>
+        <table style="width:100%">
+        <tr>
+<td>State</td>
+<td>Massachusetts</td>
+<td>School</td>
+<td>Univ of Massachusetts Lowell</td>
+</tr>
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">91</td>
+<td bgcolor="#cecece">304</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Foundations Of Computer Sci</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">475</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Languag &amp; Machine</td>
+</tr><tr>
+<td>State</td>
+<td>Alabama</td>
+<td>School</td>
+<td>Auburn University Main Campus</td>
+</tr>
+<tr>
+<td></td>
+<td>COMP</td>
+<td>4200</td>
+<td width="10px">
+</td>
+<td>Language Translation</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr><tr>
+<td>State</td>
+<td>Alabama</td>
+<td>School</td>
+<td>Auburn University Main Campus</td>
+</tr>
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMP</td>
+<td bgcolor="#cecece">4270</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Advanced Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">470</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Computer Algorithms</td>
+</tr><tr>
+<td>State</td>
+<td>Alabama</td>
+<td>School</td>
+<td>Auburn University Main Campus</td>
+</tr>
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMP</td>
+<td bgcolor="#cecece">4270</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Advanced Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">470</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Computer Algorithms</td>
+</tr>
+        </table>
+
+        </body>
+        </html>

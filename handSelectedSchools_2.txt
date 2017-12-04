@@ -1,0 +1,2408 @@
+State: Alabama School: Auburn University Main Campus
+<tr>
+<td></td>
+<td>COMP</td>
+<td>4200</td>
+<td width="10px">
+</td>
+<td>Language Translation</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr>
+
+-Potential School-
+State: Alabama School: Auburn University Main Campus
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMP</td>
+<td bgcolor="#cecece">4270</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Advanced Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">470</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Computer Algorithms</td>
+</tr>
+
+-Potential School-
+State: Alabama School: Jacksonville State University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">420</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms Design/Analysis</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">470</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Computer Algorithms</td>
+</tr>
+
+-Potential School-
+State: Alabama
+School: Univ Alabama At Birmingham
+<tr>
+<td></td>
+<td>CS</td>
+<td>350</td>
+<td width="10px">
+</td>
+<td>Automata/Formal Lang Theory</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Language &amp; Machines</td>
+</tr>
+
+
+-Potential School-
+State: Alabama School: Univ Alabama At Birmingham
+<tr>
+<td></td>
+<td>CS</td>
+<td>455</td>
+<td width="10px">
+</td>
+<td>Analysis Of Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>470</td>
+<td width="10px">
+</td>
+<td>Intro Computer Algorithms</td>
+</tr>
+
+-Potential School-
+State: Alabama School: University Alabama Huntsville
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">403</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Lang/Automata Theory</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">475</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Languages &amp; Machines</td>
+</tr>
+
+-Potential School-
+State: Alabama School: University Of North Alabama
+<tr>
+<td></td>
+<td>CS</td>
+<td>421</td>
+<td width="10px">
+</td>
+<td>Automata Theory/Complier Con</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Language &amp; Machine</td>
+</tr>
+
+-Potential School-
+State: Alabama School: University Of South Alabama
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSC</td>
+<td bgcolor="#cecece">434</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Lang/Automata Theory</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">470</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Computer Algorithm</td>
+</tr>
+
+-Potential School-
+State: California School: Univ Of California-San Diego
+<tr>
+<td></td>
+<td>SE</td>
+<td>9</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Programming</td>
+<td></td>
+<td>ENGR</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Programming</td>
+</tr>
+-Potential School-
+State: California School: Univ Of California-San Diego
+<tr>
+<td></td>
+<td>SE</td>
+<td>9</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Programming</td>
+<td></td>
+<td>ENGR</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Programming</td>
+</tr>
+-Potential School-
+State: Colorado School: Regis University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">449</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms &amp; Complexity</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures And Algorithms</td>
+</tr>
+-Potential School-
+State: Colorado School: Regis University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">449</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms &amp; Complexity</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures And Algorithms</td>
+</tr>
+-Potential School-
+State: Colorado School: University Of Colorado-Colorad
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">1450</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures And Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Foundations Of Comp Science</td>
+</tr>
+-Potential School-
+State: District of Columbia School: Univ of District of Columbia
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">3528</td>
+<td bgcolor="#cecece">110</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms With Basic</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">GEC</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms With Basic</td>
+</tr>
+-Potential School-
+State: District of Columbia School: Univ of District of Columbia
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">3528</td>
+<td bgcolor="#cecece">110</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms With Basic</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">GEC</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms With Basic</td>
+</tr>
+-Potential School-
+State: District of Columbia School: Univ of District of Columbia
+<tr>
+<td></td>
+<td>3528</td>
+<td>111</td>
+<td width="10px">
+</td>
+<td>Algorithms Basic Lab</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithms Basic Lab</td>
+</tr>
+-Potential School-
+State: District of Columbia School: Univ of District of Columbia
+<tr>
+<td></td>
+<td>3528</td>
+<td>111</td>
+<td width="10px">
+</td>
+<td>Algorithms Basic Lab</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithms Basic Lab</td>
+</tr>
+-Potential School-
+State: Florida School: Embry-Riddle Aeronautical Univ
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">223</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Scientific Programming</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">AEM</td>
+<td bgcolor="#cecece">249</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithm Devl Implementation</td>
+</tr>
+-Potential School-
+State: Florida School: Fla State College Jacksonville
+<tr>
+<td></td>
+<td>COP</td>
+<td>1000</td>
+<td width="10px">
+</td>
+<td>In Prog/Algrthm</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Intro Prog/Algorithm</td>
+</tr>
+-Potential School-
+State: Florida School: Florida Atlantic University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COP</td>
+<td bgcolor="#cecece">3530</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Struc Algorithms An</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Foundations In Comp Science</td>
+</tr>
+-Potential School-
+State: Florida School: Florida Atlantic University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COT</td>
+<td bgcolor="#cecece">4400</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Design &amp; Analysis Of Algorithm</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Florida School: Florida Atlantic University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COT</td>
+<td bgcolor="#cecece">4400</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Design &amp; Analysis Of Algorithm</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Florida School: Florida Institute Of Technolog
+<tr>
+<td></td>
+<td>CSE</td>
+<td>4083</td>
+<td width="10px">
+</td>
+<td>Formal Lang</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Formal Lang</td>
+</tr>
+-Potential School-
+State: Florida School: Florida Institute Of Technolog
+<tr>
+<td></td>
+<td>CSE</td>
+<td>4083</td>
+<td width="10px">
+</td>
+<td>Formal Lang</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Formal Lang</td>
+</tr>
+-Potential School-
+State: Florida School: Florida Institute Of Technolog
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSE</td>
+<td bgcolor="#cecece">2010</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms And Data Str</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Assembly Language Progm</td>
+</tr>
+
+-Potential School-
+State: Florida School: Florida Institute Of Technolog
+<tr>
+<td></td>
+<td>CSE</td>
+<td>4081</td>
+<td width="10px">
+</td>
+<td>Intro Ana Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>470</td>
+<td width="10px">
+</td>
+<td>Intro Computer Algorithm</td>
+</tr>
+
+-Potential School-
+State: Florida School: Florida Southern College
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">MAT</td>
+<td bgcolor="#cecece">1007</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Social World Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">MATH</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Social World Algorithms</td>
+</tr>
+-Potential School-
+State: Florida School: Florida Southern College
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">MAT</td>
+<td bgcolor="#cecece">1007</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Social World Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">MATH</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Social World Algorithms</td>
+</tr>
+-Potential School-
+State: Florida School: Florida State University
+<tr>
+<td></td>
+<td>COT</td>
+<td>4420</td>
+<td width="10px">
+</td>
+<td>Theory Of Computation</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr>
+
+
+-Potential School-
+State: Florida School: University Of West Florida
+<tr>
+<td></td>
+<td>COP</td>
+<td>3014</td>
+<td width="10px">
+</td>
+<td>Algorithm And Program Design</td>
+<td></td>
+<td>CS</td>
+<td>100</td>
+<td width="10px">
+</td>
+<td>Cs I For Majors</td>
+</tr>
+
+
+-Potential School-
+State: Florida School: University Of West Florida
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COP</td>
+<td bgcolor="#cecece">3530</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms I</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Foundations Of Comp Science</td>
+</tr>
+-Potential School-
+State: Florida School: University Of West Florida
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece">And</td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms I</td>
+</tr>
+-Potential School-
+State: Florida School: University Of West Florida
+<tr>
+<td></td>
+<td>COP</td>
+<td>4534</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms 2</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Florida School: University Of West Florida
+<tr>
+<td></td>
+<td>COP</td>
+<td>4534</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms 2</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Armstrong Atlantic State Univ
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>2410</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Armstrong Atlantic State Univ
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>2410</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Georgia Institute Of Technolog
+<tr>
+<td></td>
+<td>CS</td>
+<td>1332</td>
+<td width="10px">
+</td>
+<td>Data Struct &amp; Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Data Struct &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Georgia Institute Of Technolog
+<tr>
+<td></td>
+<td>CS</td>
+<td>1332</td>
+<td width="10px">
+</td>
+<td>Data Struct &amp; Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Data Struct &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Georgia Institute Of Technolog
+<tr>
+<td></td>
+<td>CS</td>
+<td>3510</td>
+<td width="10px">
+</td>
+<td>Design/Analysis-Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Georgia Institute Of Technolog
+<tr>
+<td></td>
+<td>CS</td>
+<td>3510</td>
+<td width="10px">
+</td>
+<td>Design/Analysis-Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Georgia Southwestern St Univ
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>3500</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>101</td>
+<td width="10px">
+</td>
+<td>Cs II For Majors</td>
+</tr>
+-Potential School-
+State: Georgia School: Georgia State University
+<tr>
+<td></td>
+<td>CSC</td>
+<td>4520</td>
+<td width="10px">
+</td>
+<td>Design &amp; Analysis Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Georgia State University
+<tr>
+<td></td>
+<td>CSC</td>
+<td>4520</td>
+<td width="10px">
+</td>
+<td>Design &amp; Analysis Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Kennesaw State University
+<tr>
+<td></td>
+<td>CS</td>
+<td>4306</td>
+<td width="10px">
+</td>
+<td>Algorithm Analysis</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Kennesaw State University
+<tr>
+<td></td>
+<td>CS</td>
+<td>4306</td>
+<td width="10px">
+</td>
+<td>Algorithm Analysis</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Mercer University-Macon
+<tr>
+<td></td>
+<td>CSC</td>
+<td>245</td>
+<td width="10px">
+</td>
+<td>Data Struct/Algorithm Analy</td>
+<td></td>
+<td>CS</td>
+<td>101</td>
+<td width="10px">
+</td>
+<td>Foundations In Comp Science</td>
+</tr>
+-Potential School-
+State: Georgia School: Shorter University
+<tr>
+<td></td>
+<td>COMM</td>
+<td>1040</td>
+<td width="10px">
+</td>
+<td>Pr In Formal Organizations</td>
+<td></td>
+<td>APR</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Pr In Formal Organizatiions</td>
+</tr>
+-Potential School-
+State: Georgia School: Shorter University
+<tr>
+<td></td>
+<td>COMM</td>
+<td>1040</td>
+<td width="10px">
+</td>
+<td>Pr In Formal Organizations</td>
+<td></td>
+<td>APR</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Pr In Formal Organizatiions</td>
+</tr>
+-Potential School-
+State: Georgia School: University Of Georgia
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">2720</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Georgia School: Valdosta State University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">1010</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Problem Solving</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Problem Solving</td>
+</tr>
+-Potential School-
+State: Georgia School: Valdosta State University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">1010</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Problem Solving</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Problem Solving</td>
+</tr>
+-Potential School-
+State: Hawaii School: Hawaii Pacific University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">3101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">MATH</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms</td>
+</tr>
+-Potential School-
+State: Hawaii School: Hawaii Pacific University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">3101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">MATH</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms</td>
+</tr>
+-Potential School-
+State: Illinois School: Univ of Ill at Springfield
+<tr>
+<td></td>
+<td>CSC</td>
+<td>385</td>
+<td width="10px">
+</td>
+<td>Data Structures/Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Illinois School: Univ of Ill at Springfield
+<tr>
+<td></td>
+<td>CSC</td>
+<td>385</td>
+<td width="10px">
+</td>
+<td>Data Structures/Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Illinois School: University Of Illinois Urbana
+<tr>
+<td></td>
+<td>CS</td>
+<td>225</td>
+<td width="10px">
+</td>
+<td>Data Structures</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Indiana School: Indiana Institute Of Technolog
+<tr>
+<td></td>
+<td>CS</td>
+<td>3100</td>
+<td width="10px">
+</td>
+<td>Algorithm Design &amp; Analysis</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithm Design &amp; Analysis</td>
+</tr>
+-Potential School-
+State: Indiana School: Indiana Institute Of Technolog
+<tr>
+<td></td>
+<td>CS</td>
+<td>3100</td>
+<td width="10px">
+</td>
+<td>Algorithm Design &amp; Analysis</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithm Design &amp; Analysis</td>
+</tr>
+-Potential School-
+State: Indiana School: Rose-Hulman Institute Of Techn
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSSE</td>
+<td bgcolor="#cecece">230</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithm An</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Foundations In Comp Science</td>
+</tr>
+-Potential School-
+State: Kansas School: Johnson County Community Colle
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Concepts/Prog Algorithms C#</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">100</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Cs I For Majors</td>
+</tr>
+-Potential School-
+State: Louisiana School: Louisiana State University Shr
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSC</td>
+<td bgcolor="#cecece">346</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Analysis Of Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Analysis Of Algorithms</td>
+</tr>
+-Potential School-
+State: Louisiana School: Louisiana State University Shr
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSC</td>
+<td bgcolor="#cecece">346</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Analysis Of Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Analysis Of Algorithms</td>
+</tr>
+-Potential School-
+State: Louisiana School: Nicholls State University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CMPS</td>
+<td bgcolor="#cecece">221</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures/Soft Design</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">AEM</td>
+<td bgcolor="#cecece">249</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithm Dev/Implementation</td>
+</tr>
+-Potential School-
+State: Louisiana School: University Of New Orleans
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>4103</td>
+<td width="10px">
+</td>
+<td>Formal Languages/Automata</td>
+<td></td>
+<td>CS</td>
+<td>397</td>
+<td width="10px">
+</td>
+<td>Formal Languages/Automata</td>
+</tr>
+-Potential School-
+State: Louisiana School: University Of New Orleans
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>4103</td>
+<td width="10px">
+</td>
+<td>Formal Languages/Automata</td>
+<td></td>
+<td>CS</td>
+<td>397</td>
+<td width="10px">
+</td>
+<td>Formal Languages/Automata</td>
+</tr>
+
+-Potential School-
+State: Louisiana School: University Of New Orleans
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">4101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Analysis Of Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">470</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Computer Algorithms</td>
+</tr>
+
+-Potential School-
+State: Maryland School: Univ of Maryland Univ Coll
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CMIS</td>
+<td bgcolor="#cecece">102</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Problem Solving/Algorith</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Problem Solving/Algorith</td>
+</tr>
+-Potential School-
+State: Maryland School: Univ of Maryland Univ Coll
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CMIS</td>
+<td bgcolor="#cecece">102</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Problem Solving/Algorith</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Problem Solving/Algorith</td>
+</tr>
+
+-Potential School-
+State: Massachusetts School: Boston University
+<tr>
+<td></td>
+<td>CAS</td>
+<td>CS330</td>
+<td width="10px">
+</td>
+<td>Intro Analysis Of Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>470</td>
+<td width="10px">
+</td>
+<td>Computer Algorithms</td>
+</tr>
+
+
+-Potential School-
+State: Massachusetts School: Tufts University
+<tr>
+<td></td>
+<td>COMP</td>
+<td>0150B</td>
+<td width="10px">
+</td>
+<td>Algorithms And Data Structures</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures And Algorithms</td>
+</tr>
+-Potential School-
+State: Massachusetts School: Tufts University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMP</td>
+<td bgcolor="#cecece">0160</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms</td>
+</tr>
+-Potential School-
+State: Massachusetts School: Tufts University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMP</td>
+<td bgcolor="#cecece">0160</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms</td>
+</tr>
+-Potential School-
+State: Massachusetts School: Univ of Massachusetts Boston
+<tr>
+<td></td>
+<td>CS</td>
+<td>310</td>
+<td width="10px">
+</td>
+<td>Adv Data Structures Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>397</td>
+<td width="10px">
+</td>
+<td>Adv Data Structures Algorithms</td>
+</tr>
+-Potential School-
+State: Massachusetts School: Univ of Massachusetts Boston
+<tr>
+<td></td>
+<td>CS</td>
+<td>310</td>
+<td width="10px">
+</td>
+<td>Adv Data Structures Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>397</td>
+<td width="10px">
+</td>
+<td>Adv Data Structures Algorithms</td>
+</tr>
+-Potential School-
+State: Massachusetts School: Univ of Massachusetts Lowell
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">91</td>
+<td bgcolor="#cecece">304</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Foundations Of Computer Sci</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">475</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Languag &amp; Machine</td>
+</tr>
+-Potential School-
+State: Massachusetts School: Univ of Massachusetts Lowell
+<tr>
+<td></td>
+<td>91</td>
+<td>404</td>
+<td width="10px">
+</td>
+<td>Analysis Of Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Massachusetts School: Univ of Massachusetts Lowell
+<tr>
+<td></td>
+<td>91</td>
+<td>404</td>
+<td width="10px">
+</td>
+<td>Analysis Of Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Michigan School: Oakland University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">ENG</td>
+<td bgcolor="#cecece">250</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Film And Formal Anal</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">JCM</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Film And Formal Anal</td>
+</tr>
+-Potential School-
+State: Michigan School: Oakland University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">ENG</td>
+<td bgcolor="#cecece">250</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Film And Formal Anal</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">JCM</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Film And Formal Anal</td>
+</tr>
+-Potential School-
+State: Michigan School: University Of Michigan Dearbor
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CIS</td>
+<td bgcolor="#cecece">350</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Struc &amp; Algor</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures And Algorithms</td>
+</tr>
+-Potential School-
+State: Minnesota School: University Of Minnesota Morris
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>1301</td>
+<td width="10px">
+</td>
+<td>Prob Solving, Algorithm Dev</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Prob Solving, Algorithm Dev</td>
+</tr>
+-Potential School-
+State: Minnesota School: University Of Minnesota Morris
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>1301</td>
+<td width="10px">
+</td>
+<td>Prob Solving, Algorithm Dev</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Prob Solving, Algorithm Dev</td>
+</tr>
+-Potential School-
+State: Minnesota School: University Of Minnesota Morris
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">1302</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Prob Solv, Algorithm Dev II</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Prob Solv, Algorithm Dev II</td>
+</tr>
+-Potential School-
+State: Minnesota School: University Of Minnesota Morris
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">1302</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Prob Solv, Algorithm Dev II</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Prob Solv, Algorithm Dev II</td>
+</tr>
+-Potential School-
+State: Mississippi School: Mississippi State University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">FO</td>
+<td bgcolor="#cecece">3015</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Description/Analysis</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">GEC</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Description/Analysis</td>
+</tr>
+-Potential School-
+State: Mississippi School: Mississippi State University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">FO</td>
+<td bgcolor="#cecece">3015</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Description/Analysis</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">GEC</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Description/Analysis</td>
+</tr>
+-Potential School-
+State: Mississippi School: Mississippi State University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSE</td>
+<td bgcolor="#cecece">2383</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Analysis</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Mississippi School: University Of Mississippi Main
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>433</td>
+<td width="10px">
+</td>
+<td>Algorithm/Data Structure Analy</td>
+<td></td>
+<td>CS</td>
+<td>470</td>
+<td width="10px">
+</td>
+<td>Intro Computer Algorithm</td>
+</tr>
+-Potential School-
+State: Mississippi School: University Of Mississippi Main
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>433</td>
+<td width="10px">
+</td>
+<td>Algorithm/Data Structure Analy</td>
+<td></td>
+<td>CS</td>
+<td>470</td>
+<td width="10px">
+</td>
+<td>Intro Computer Algorithm</td>
+</tr>
+-Potential School-
+State: New Jersey School: Princeton University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COS</td>
+<td bgcolor="#cecece">226</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms Data Str</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Cs II For Majors</td>
+</tr>
+-Potential School-
+State: New York School: CUNY Queens College
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">111</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Algorithmic Prob Solving</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">100</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Cs I For Majors</td>
+</tr>
+-Potential School-
+State: New York School: Culinary Institute of America
+<tr>
+<td></td>
+<td>CULA</td>
+<td>255</td>
+<td width="10px">
+</td>
+<td>Formal Restaurant Cooking</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Formal Restaurant Cooking</td>
+</tr>
+-Potential School-
+State: New York School: Culinary Institute of America
+<tr>
+<td></td>
+<td>CULA</td>
+<td>255</td>
+<td width="10px">
+</td>
+<td>Formal Restaurant Cooking</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Formal Restaurant Cooking</td>
+</tr>
+-Potential School-
+State: New York School: Culinary Institute of America
+<tr>
+<td></td>
+<td>ROPS</td>
+<td>255</td>
+<td width="10px">
+</td>
+<td>Formal Hosp/Serv Mgmt</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Formal Hosp/Serv Mgmt</td>
+</tr>
+-Potential School-
+State: New York School: Culinary Institute of America
+<tr>
+<td></td>
+<td>ROPS</td>
+<td>255</td>
+<td width="10px">
+</td>
+<td>Formal Hosp/Serv Mgmt</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Formal Hosp/Serv Mgmt</td>
+</tr>
+-Potential School-
+State: New York School: Culinary Institute of America
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">TBLESERV</td>
+<td bgcolor="#cecece">213</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Service</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">GEC</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Service</td>
+</tr>
+-Potential School-
+State: New York School: Culinary Institute of America
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">TBLESERV</td>
+<td bgcolor="#cecece">213</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Service</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">GEC</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Service</td>
+</tr>
+-Potential School-
+State: New York School: Rochester Institute Of Technol
+<tr>
+<td></td>
+<td>IGME</td>
+<td>105</td>
+<td width="10px">
+</td>
+<td>Game Dev &amp; Algorithmic Prb Sol</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Game Dev &amp; Algorithmic Prb Sol</td>
+</tr>
+-Potential School-
+State: New York School: Rochester Institute Of Technol
+<tr>
+<td></td>
+<td>IGME</td>
+<td>105</td>
+<td width="10px">
+</td>
+<td>Game Dev &amp; Algorithmic Prb Sol</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Game Dev &amp; Algorithmic Prb Sol</td>
+</tr>
+-Potential School-
+State: New York School: United States Military Academy
+<tr>
+<td></td>
+<td>CS</td>
+<td>385</td>
+<td width="10px">
+</td>
+<td>Design &amp; Analysis-Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures Adn Algorithms</td>
+</tr>
+-Potential School-
+State: New York School: United States Military Academy
+<tr>
+<td></td>
+<td>CS</td>
+<td>385</td>
+<td width="10px">
+</td>
+<td>Design &amp; Analysis-Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Data Structures Adn Algorithms</td>
+</tr>
+-Potential School-
+State: North Carolina School: Elon University
+<tr>
+<td></td>
+<td>CSC</td>
+<td>230</td>
+<td width="10px">
+</td>
+<td>Algorithm Development</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithm Development</td>
+</tr>
+-Potential School-
+State: North Carolina School: Elon University
+<tr>
+<td></td>
+<td>CSC</td>
+<td>230</td>
+<td width="10px">
+</td>
+<td>Algorithm Development</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithm Development</td>
+</tr>
+-Potential School-
+State: North Carolina School: Fayetteville State University
+<tr>
+<td></td>
+<td>CSC</td>
+<td>220</td>
+<td width="10px">
+</td>
+<td>Data Structures/Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Data Structures/Algorithms</td>
+</tr>
+-Potential School-
+State: North Carolina School: Fayetteville State University
+<tr>
+<td></td>
+<td>CSC</td>
+<td>220</td>
+<td width="10px">
+</td>
+<td>Data Structures/Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Data Structures/Algorithms</td>
+</tr>
+-Potential School-
+State: North Carolina School: Univ North Carolina Asheville
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>201</td>
+<td width="10px">
+</td>
+<td>Intro Algorithm Design</td>
+<td></td>
+<td>CS</td>
+<td>150</td>
+<td width="10px">
+</td>
+<td>Programming I</td>
+</tr>
+-Potential School-
+State: North Carolina School: Univ North Carolina Asheville
+<tr>
+<td></td>
+<td>
+</td>
+<td>
+</td>
+<td width="10px">
+</td>
+<td>
+</td>
+<td>And</td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Intro Algorithm Design</td>
+</tr>
+-Potential School-
+State: North Dakota School: University Of North Dakota Mai
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">242</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms &amp; Data Structures</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: North Dakota School: University Of North Dakota Mai
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">242</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms &amp; Data Structures</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms</td>
+</tr>
+
+-Potential School-
+State: Ohio School: University Of Cincinnati Main
+<tr>
+<td></td>
+<td>CS</td>
+<td>471</td>
+<td width="10px">
+</td>
+<td>Design &amp; Analysis Of Algorithm</td>
+<td></td>
+<td>CS</td>
+<td>470</td>
+<td width="10px">
+</td>
+<td>Intro Computer Algorithms</td>
+</tr>
+
+-Potential School-
+State: Oklahoma School: Eastern Oklahoma State College
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CIS</td>
+<td bgcolor="#cecece">1433</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Computer Logic/Algorithm</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Computer Logic/Algorithm</td>
+</tr>
+-Potential School-
+State: Oklahoma School: Eastern Oklahoma State College
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CIS</td>
+<td bgcolor="#cecece">1433</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Computer Logic/Algorithm</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Computer Logic/Algorithm</td>
+</tr>
+
+-Potential School-
+State: Oregon School: Oregon State University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">325</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Analysis Of Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">470</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Computer Algorithms</td>
+</tr>
+
+
+-Potential School-
+State: Pennsylvania School: Villanova University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece">And</td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithms &amp; Data Struc I</td>
+</tr>
+-Potential School-
+State: Pennsylvania School: Villanova University
+<tr>
+<td></td>
+<td>CSC</td>
+<td>1052</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Data Struc II</td>
+<td></td>
+<td>CS</td>
+<td>101</td>
+<td width="10px">
+</td>
+<td>Cs II For Majors</td>
+</tr>
+-Potential School-
+State: Puerto Rico School: Univ of Puerto Rico Mayaguez
+<tr>
+<td></td>
+<td>INGE</td>
+<td>3016</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Comp Prog</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Comp Prog</td>
+</tr>
+-Potential School-
+State: Puerto Rico School: Univ of Puerto Rico Mayaguez
+<tr>
+<td></td>
+<td>INGE</td>
+<td>3016</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Comp Prog</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithms &amp; Comp Prog</td>
+</tr>
+-Potential School-
+State: South Carolina School: Claflin University
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">215</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Basic Algorithmic Design</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">150</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Programming I</td>
+</tr>
+-Potential School-
+State: South Carolina School: Coastal Carolina University
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>131L</td>
+<td width="10px">
+</td>
+<td>Algorithmic Thinking</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithmic Thinking</td>
+</tr>
+-Potential School-
+State: South Carolina School: Coastal Carolina University
+<tr>
+<td></td>
+<td>CSCI</td>
+<td>131L</td>
+<td width="10px">
+</td>
+<td>Algorithmic Thinking</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithmic Thinking</td>
+</tr>
+-Potential School-
+State: South Carolina School: Limestone College
+<tr>
+<td></td>
+<td>CS</td>
+<td>403</td>
+<td width="10px">
+</td>
+<td>Theory Of Computation</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr>
+-Potential School-
+State: South Carolina School: Midlands Technical College
+<tr>
+<td></td>
+<td>EGR</td>
+<td>281</td>
+<td width="10px">
+</td>
+<td>Intro Algorithmic Design I</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Intro Algorithmic Design I</td>
+</tr>
+-Potential School-
+State: South Carolina School: Midlands Technical College
+<tr>
+<td></td>
+<td>EGR</td>
+<td>281</td>
+<td width="10px">
+</td>
+<td>Intro Algorithmic Design I</td>
+<td></td>
+<td>CS</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Intro Algorithmic Design I</td>
+</tr>
+-Potential School-
+State: South Carolina School: Univ. of S. Carolina- Columbia
+<tr>
+<td></td>
+<td>CSCE</td>
+<td>145</td>
+<td width="10px">
+</td>
+<td>Algorithmic Design I</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithmic Design I</td>
+</tr>
+-Potential School-
+State: South Carolina School: Univ. of S. Carolina- Columbia
+<tr>
+<td></td>
+<td>CSCE</td>
+<td>145</td>
+<td width="10px">
+</td>
+<td>Algorithmic Design I</td>
+<td></td>
+<td>GEC</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Algorithmic Design I</td>
+</tr>
+-Potential School-
+State: South Carolina School: Univ. of S. Carolina- Columbia
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCE</td>
+<td bgcolor="#cecece">146</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Design II</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Design II</td>
+</tr>
+-Potential School-
+State: South Carolina School: Univ. of S. Carolina- Columbia
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCE</td>
+<td bgcolor="#cecece">146</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Design II</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Design II</td>
+</tr>
+-Potential School-
+State: Tennessee School: Christian Brothers University
+<tr>
+<td></td>
+<td>ECE</td>
+<td>172</td>
+<td width="10px">
+</td>
+<td>Int Programming/Algorithms</td>
+<td></td>
+<td>ECE</td>
+<td>285</td>
+<td width="10px">
+</td>
+<td>Numercl Comput Elect Sys</td>
+</tr>
+-Potential School-
+State: Tennessee School: Rhodes College
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMP</td>
+<td bgcolor="#cecece">241</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Cs III: Data Structure/Algorit</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">101</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Comp Spreadsheet Applic</td>
+</tr>
+-Potential School-
+State: Tennessee School: Rhodes College
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">
+</td>
+<td bgcolor="#cecece">And</td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">197</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Cs III: Data Structure/Algorit</td>
+</tr>
+-Potential School-
+State: Tennessee School: Tennessee Technological Univer
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSC</td>
+<td bgcolor="#cecece">2710</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Found Of Computer Science</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures And Algorithms</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of Memphis
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMP</td>
+<td bgcolor="#cecece">3160</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Adv Data Structures/Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures And Algorithms</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of Memphis
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMP</td>
+<td bgcolor="#cecece">3160</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Adv Data Structures/Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures And Algorithms</td>
+</tr>
+
+-Potential School-
+State: Tennessee School: University Of Memphis
+<tr>
+<td></td>
+<td>COMP</td>
+<td>4030</td>
+<td width="10px">
+</td>
+<td>Intro To Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>470</td>
+<td width="10px">
+</td>
+<td>Intro Computer Algorithms</td>
+</tr>
+
+-Potential School-
+State: Tennessee School: University Of Tennessee-Chatta
+<tr>
+<td></td>
+<td>CPSC</td>
+<td>3200</td>
+<td width="10px">
+</td>
+<td>Algorithm Analy/Adv Data Struc</td>
+<td></td>
+<td>CS</td>
+<td>397</td>
+<td width="10px">
+</td>
+<td>Algorithm Analy/Adv Data Struc</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of Tennessee-Chatta
+<tr>
+<td></td>
+<td>CPSC</td>
+<td>3200</td>
+<td width="10px">
+</td>
+<td>Algorithm Analy/Adv Data Struc</td>
+<td></td>
+<td>CS</td>
+<td>397</td>
+<td width="10px">
+</td>
+<td>Algorithm Analy/Adv Data Struc</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of Tennessee-Knoxvi
+<tr>
+<td></td>
+<td>PHIL</td>
+<td>235</td>
+<td width="10px">
+</td>
+<td>Formal Logic</td>
+<td></td>
+<td>PHL</td>
+<td>195</td>
+<td width="10px">
+</td>
+<td>Intro Deductive Logic</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of Tennessee-Knoxvi
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">PHILOSOPHY</td>
+<td bgcolor="#cecece">135</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Logic</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">PHL</td>
+<td bgcolor="#cecece">195</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Deductive Logic</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of Tennessee-Knoxvi
+<tr>
+<td></td>
+<td>CS</td>
+<td>302</td>
+<td width="10px">
+</td>
+<td>Fundamental Algorithms</td>
+<td></td>
+<td>CS</td>
+<td>101</td>
+<td width="10px">
+</td>
+<td>Foundations In Comp Science</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of The South
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">157</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Algorithmic Problem Solving</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">100</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Computers And Society</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of The South
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">320</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Analysis Of Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Tennessee School: University Of The South
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CSCI</td>
+<td bgcolor="#cecece">320</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Analysis Of Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">201</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Data Structures &amp; Algorithms</td>
+</tr>
+-Potential School-
+State: Tennessee School: Vanderbilt University
+<tr>
+<td></td>
+<td>PHIL</td>
+<td>202</td>
+<td width="10px">
+</td>
+<td>Formal Logic Apps</td>
+<td></td>
+<td>PHL</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Formal Logic Apps</td>
+</tr>
+-Potential School-
+State: Tennessee School: Vanderbilt University
+<tr>
+<td></td>
+<td>PHIL</td>
+<td>202</td>
+<td width="10px">
+</td>
+<td>Formal Logic Apps</td>
+<td></td>
+<td>PHL</td>
+<td>197</td>
+<td width="10px">
+</td>
+<td>Formal Logic Apps</td>
+</tr>
+-Potential School-
+State: Texas School: Austin Community College
+<tr>
+<td></td>
+<td>COSC</td>
+<td>2415</td>
+<td width="10px">
+</td>
+<td>Data Structures</td>
+<td></td>
+<td>CS</td>
+<td>201</td>
+<td width="10px">
+</td>
+
+-Potential School-
+State: Texas School: Texas Tech University
+<tr>
+<td></td>
+<td>CS</td>
+<td>5383</td>
+<td width="10px">
+</td>
+<td>Theory Of Automata</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr>
+
+-Potential School-
+State: Wisconsin School: Univ of Wisconsin-Madison
+<tr>
+<td></td>
+<td>COMPSCI</td>
+<td>367</td>
+<td width="10px">
+</td>
+<td>Intro To Data Structures</td>
+<td></td>
+<td>CS</td>
+<td>470</td>
+<td width="10px">
+</td>
+<td>Intro Computer Algorithms</td>
+</tr>
+
+-Potential School-
+State: Wisconsin School: Univ of Wisconsin-Madison
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">COMPSCI</td>
+<td bgcolor="#cecece">577</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro To Algorithms</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">470</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Intro Computer Algorithms</td>
+</tr>

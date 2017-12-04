@@ -149,12 +149,12 @@ if __name__ == "__main__":
     f.write(file_heading)
     f.close()
     stateSchool = getEntryFromDB()
-    stateSchool = [(u'Massachusetts', u'Univ of Massachusetts Lowell'),
-                   (u'Alabama', u'Auburn University Main Campus')]
+    # stateSchool = [(u'Massachusetts', u'Univ of Massachusetts Lowell'),
+    #               (u'Alabama', u'Auburn University Main Campus')]
     # stateSchool = [(u'Oregon', u'Oregon State University'),(u'Alabama', u'Alabama State University')]
     # stateSchool = [(u'Alabama', u'Alabama State University')]
     for entry in stateSchool:
-        # print entry[0] + " " + entry[1]
+        print entry[0] + " " + entry[1]
         hasEquivalentCourse(entry[0], entry[1])
     f = open("targetSchools.html", "a")
     file_footing = """

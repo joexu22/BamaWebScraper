@@ -1,0 +1,142 @@
+State: Alabama
+School: Auburn University Main Campus
+<tr>
+<td></td>
+<td>COMP</td>
+<td>4200</td>
+<td width="10px">
+</td>
+<td>Language Translation</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr>
+
+
+State: Alabama
+School: Univ Alabama At Birmingham
+<tr>
+<td></td>
+<td>CS</td>
+<td>350</td>
+<td width="10px">
+</td>
+<td>Automata/Formal Lang Theory</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Language &amp; Machines</td>
+</tr>
+
+
+State: Alabama
+School: University Alabama Huntsville
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">403</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Lang/Automata Theory</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">475</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Languages &amp; Machines</td>
+</tr>
+
+
+State: Alabama
+School: University Of North Alabama
+<tr>
+<td></td>
+<td>CS</td>
+<td>421</td>
+<td width="10px">
+</td>
+<td>Automata Theory/Complier Con</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Language &amp; Machine</td>
+</tr>
+
+
+State: Florida
+School: Florida State University
+<tr>
+<td></td>
+<td>COT</td>
+<td>4420</td>
+<td width="10px">
+</td>
+<td>Theory Of Computation</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr>
+
+
+State: Massachusetts
+School: Univ of Massachusetts Lowell
+<tr>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">91</td>
+<td bgcolor="#cecece">304</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Foundations Of Computer Sci</td>
+<td bgcolor="#cecece"></td>
+<td bgcolor="#cecece">CS</td>
+<td bgcolor="#cecece">475</td>
+<td bgcolor="#cecece" width="10px">
+</td>
+<td bgcolor="#cecece">Formal Languag &amp; Machine</td>
+</tr>
+
+
+State: South Carolina
+School: Limestone College
+<tr>
+<td></td>
+<td>CS</td>
+<td>403</td>
+<td width="10px">
+</td>
+<td>Theory Of Computation</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr>
+
+
+State: Texas
+School: Texas Tech University
+<tr>
+<td></td>
+<td>CS</td>
+<td>5383</td>
+<td width="10px">
+</td>
+<td>Theory Of Automata</td>
+<td></td>
+<td>CS</td>
+<td>475</td>
+<td width="10px">
+</td>
+<td>Formal Languag &amp; Machine</td>
+</tr>
