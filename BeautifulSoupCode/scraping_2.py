@@ -1,4 +1,3 @@
-import urllib2
 from bs4 import BeautifulSoup
 
 html_atag = """<html><body><p>Test html a tag example</p>
@@ -7,7 +6,7 @@ html_atag = """<html><body><p>Test html a tag example</p>
 </body>
 </html>"""
 
-soup = BeautifulSoup(html_atag,'lxml')
+soup = BeautifulSoup(html_atag,'html.parser')
 atag = soup.a
 
 #print(atag)

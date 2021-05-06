@@ -208,13 +208,13 @@ with connection:
     # making sure the data coming out are tuples
     # for entry in stateSchool:
     #    print entry
-print randomSchool
+print(randomSchool)
 
 # Test Setup... Need to set up test driven development...
 # script getting too big
 randomSchool = (u'Massachusetts', u'Univ of Massachusetts Lowell')
-print randomSchool[0]
-print randomSchool[1]
+print(randomSchool[0])
+print(randomSchool[1])
 
 courseSearch = bamaWebCrawler()
 courseSearch.pickStateSchool(randomSchool[0], randomSchool[1])
