@@ -22,6 +22,21 @@ This **WebScraping** service is currently under construction...<br>
 
 Installation is an issue. TODO: Port this onto a docker image
 
+TODO: This does not yet work as intended
+docker run --rm -d -v mysql:/var/lib/mysql \
+  -v mysql_config:/etc/mysql -p 5000:5000 \
+  --network mysqlnet \
+  --name mysqldb \
+  -e MYSQL_ROOT_PASSWORD=password \
+  mysql
+
+docker run \
+  --rm -d \
+  --network mysqlnet \
+  --name rest-server \
+  -p 5001:5001 \
+  bama-web-scraper
+
 Currently
 1. pip3 install selenium
 2. pip3 install pyvirtualdisplay
