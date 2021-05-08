@@ -5,7 +5,7 @@
 **Bama Course Equivalency WebScraper** is a web-scraping project which allows an University of Alabama, Tuscaloosa student to check where in the country they can take a course, without having to be at Bama. This project was brought about by a personal desire to not return to Bama just for a specific class.
 
 _Roll Tide!_<br>
-[![](http://via.placeholder.com/350x150)](https://ssb.ua.edu/pls/PROD/rtstreq.P_Searchtype)
+[![](Images/BamaBanner.png)](https://ssb.ua.edu/pls/PROD/rtstreq.P_Searchtype)
 
 --------------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ This **WebScraping** service is currently under construction...<br>
 
 Install Docker
 
-Run the following command for a simple BeautifulSoup test code:
+Run the following command for a simple BeautifulSoup test code:<br>
 ```docker-compose up```
 
 TODO: I actually need to get to the real part of the project, the Selenium scraper
@@ -56,6 +56,6 @@ Write me a suggestion at my personal web-page:
 
 ## License
 
-[![Apache License](http://via.placeholder.com/200x200)](http://www.apache.org/licenses/)
+[![Apache License](Images/ApacheLicense.png)](http://www.apache.org/licenses/)
 
 **[⬆ back to top](#table-of-contents)**

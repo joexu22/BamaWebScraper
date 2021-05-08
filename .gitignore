@@ -1,4 +1,8 @@
 # excluding files
 
-__pycache__/
+# python folders
 .venv/
+__pycache__/
+
+# log files
+geckodriver.log
