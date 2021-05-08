@@ -18,3 +18,12 @@ What I need to do is turn this into automated test suit using a CICD pipeline
 
 Run this from a parent folder
 ```python3 -m unittest discover .```
+
+## To Run Using Docker
+
+docker build -t bama-web-scraper .
+docker run -p 3000:3000 bama-web-scraper
+
+## To Run Using Docker Compose
+
+docker-compose up

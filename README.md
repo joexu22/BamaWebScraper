@@ -20,7 +20,12 @@ _Roll Tide!_<br>
 
 This **WebScraping** service is currently under construction...<br>
 
-Installation is an issue. TODO: Port this onto a docker image
+Install Docker
+
+Run the following command for a simple BeautifulSoup test code:
+```docker-compose up```
+
+TODO: I actually need to get to the real part of the project, the Selenium scraper
 
 TODO: This does not yet work as intended
 docker run --rm -d -v mysql:/var/lib/mysql \
@@ -36,11 +41,6 @@ docker run \
   --name rest-server \
   -p 5001:5001 \
   bama-web-scraper
-
-Currently
-1. pip3 install selenium
-2. pip3 install pyvirtualdisplay
-3. pip3 install bs4
 
 It will be made available once the product is finished. The idea is that the user can simply enter in the course ID for the Bama class and it will automatically search for all relevant classes in the country, as listed on the equivalency table.
 
