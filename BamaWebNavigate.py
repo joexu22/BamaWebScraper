@@ -93,7 +93,7 @@ def hasEquivalentCourse(state, school):
 
     # getting the current html for beautiful soup
     html_page = driver.page_source
-    soup = BeautifulSoup(html_page, 'lxml')
+    soup = BeautifulSoup(html_page, 'html.parser')
 
     # TODO: some smart string parsing algorithm here
     class_regexp_1 = re.compile(".*Formal.*")

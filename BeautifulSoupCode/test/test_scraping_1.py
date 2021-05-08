@@ -1,6 +1,10 @@
 import unittest
 from bs4 import BeautifulSoup
 
+"""
+Getting started with Beautiful Soup
+"""
+
 class TestBeautifulSoup(unittest.TestCase):
     
     def test_parse(self):

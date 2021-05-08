@@ -9,3 +9,12 @@ In any case, I am here to revive some dead code.
 Note To Self -
     My coding skills do not seem to be all that better than from before
     At least I can now sniff out bad code.
+
+## Todo
+
+I've changed all of these into a suite of Python unittest
+What I need to do is turn this into automated test suit using a CICD pipeline
+
+## To Run
+Must be run from this folder level because 'open()' is using relative path
+```python3 -m unittest discover .```
