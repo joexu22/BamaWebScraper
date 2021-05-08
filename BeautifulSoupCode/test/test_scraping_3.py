@@ -1,10 +1,12 @@
 import unittest
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 class TestBeautifulSoup(unittest.TestCase):
     def test_find(self):
         
-        with open("./html_folder/ecological_pyramid.html") as ecological_pyramid:
+        path = Path(__file__).parent / "../html_folder/ecological_pyramid.html"
+        with open(path) as ecological_pyramid:
             soup = BeautifulSoup(ecological_pyramid, 'html.parser')
 
         # finding the first item in an "unordered list"

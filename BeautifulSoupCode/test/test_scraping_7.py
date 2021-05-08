@@ -1,5 +1,6 @@
 import unittest
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 """
 Using Combinations in Find()
@@ -8,7 +9,8 @@ e.g. combining "div" & class_
 
 class TestBeautifulSoup(unittest.TestCase):
     def test_combination(self):
-        with open('./html_folder/identical_tag.html') as html:
+        path = Path(__file__).parent / "../html_folder/identical_tag.html"
+        with open(path) as html:
             soup = BeautifulSoup(html, "html.parser")
         
         identical_div = soup.find("div", class_ = "identical")

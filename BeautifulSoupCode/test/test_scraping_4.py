@@ -1,6 +1,7 @@
 import re
 import unittest
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 """
 Beautiful Soup and Regex Expressions...
@@ -8,7 +9,8 @@ Beautiful Soup and Regex Expressions...
 
 class TestBeautifulSoup(unittest.TestCase):
     def test_regex(self):
-        with open('./html_folder/email_id.html') as email_id_example:
+        path = Path(__file__).parent / "../html_folder/email_id.html"
+        with open(path) as email_id_example:
             soup = BeautifulSoup(email_id_example,"html.parser")
 
             # print(soup.prettify()) # what the html looks like

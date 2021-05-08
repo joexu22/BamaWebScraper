@@ -1,5 +1,6 @@
 import unittest
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 """
 Understanding how HTML Tags work
@@ -7,7 +8,8 @@ Understanding how HTML Tags work
 
 class TestBeautifulSoup(unittest.TestCase):
     def test_tags(self):
-        with open('./html_folder/a_tag.html') as a_tag_html:
+        path = Path(__file__).parent / "../html_folder/a_tag.html"
+        with open(path) as a_tag_html:
             soup = BeautifulSoup(a_tag_html, 'html.parser')
 
             # how the tagging works
@@ -16,7 +18,7 @@ class TestBeautifulSoup(unittest.TestCase):
             self.assertEqual(str(type(soup)), "<class 'bs4.BeautifulSoup'>")
             self.assertEqual(a_tag.attrs, {'href': 'http://www.packtpub.com'})
             self.assertEqual(a_tag.attrs['href'], 'http://www.packtpub.com')
-            
+
             # changing a tag while it is a soup object
             a_tag.name = 'p'
             self.assertEqual(str(a_tag), '<p href="http://www.packtpub.com">Home</p>')

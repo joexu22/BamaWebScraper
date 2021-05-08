@@ -1,9 +1,11 @@
 import unittest
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 class TestBeautifulSoup(unittest.TestCase):
     def test_soup_functions(self):
-        with open("./html_folder/ecological_pyramid.html", "r") as ecological_pyramid:
+        path = Path(__file__).parent / "../html_folder/ecological_pyramid.html"
+        with open(path) as ecological_pyramid:
             soup = BeautifulSoup(ecological_pyramid, 'html.parser')
 
         # finding the first "primary consumer" in the list

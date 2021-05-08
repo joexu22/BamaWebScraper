@@ -1,5 +1,6 @@
 import unittest
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 """
 Specific Find and Search
@@ -8,7 +9,8 @@ Specific Find and Search
 class TestBeautifulSoup(unittest.TestCase):
     def test_find_and_search(self):
 
-        with open('./html_folder/ecological_pyramid.html','r') as ecological_pyramid:
+        path = Path(__file__).parent / "../html_folder/ecological_pyramid.html"
+        with open(path) as ecological_pyramid:
             soup = BeautifulSoup(ecological_pyramid, 'html.parser')
 
         # the html is tokenized as an array of texts

@@ -1,5 +1,6 @@
 import unittest
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 """
 HTML5 Custom Attributes
@@ -19,7 +20,8 @@ class TestBeautifulSoup(unittest.TestCase):
         using_attrs = custom_soup.find(attrs={'data-custom':'custom'})
         self.assertEqual(str(using_attrs),'<p data-custom="custom">custom attribute example</p>')
 
-        with open("./html_folder/ecological_pyramid.html","r") as ecological_pyramid:
+        path = Path(__file__).parent / "../html_folder/ecological_pyramid.html"
+        with open(path) as ecological_pyramid:
             soup = BeautifulSoup(ecological_pyramid, 'html.parser')
 
         # find 'class' attribute
