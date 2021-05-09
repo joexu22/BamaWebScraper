@@ -10,4 +10,3 @@ markup = requests.get('http://xuguanzhou.com')
 soup = BeautifulSoup(markup.text,"html.parser")
 print(type(soup))
 print(soup.prettify())
-
